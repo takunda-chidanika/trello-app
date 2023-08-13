@@ -1,6 +1,5 @@
 import {create} from 'zustand'
 import {getTodosGroupedByColumn} from "@/lib/getTodosGroupedByColumn";
-import {Board, Column, Image, Todo, TypedColumn} from "@/typings";
 import {databases, ID, storage} from "@/appwrite";
 import uploadImage from "@/lib/uploadImage";
 

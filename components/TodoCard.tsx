@@ -1,5 +1,4 @@
 'use client'
-import {Todo, TypedColumn} from "@/typings";
 import {DraggableProvidedDraggableProps, DraggableProvidedDragHandleProps} from "react-beautiful-dnd";
 import {XCircleIcon} from "@heroicons/react/24/solid";
 import {useBoardStore} from "@/store/BoardStore";

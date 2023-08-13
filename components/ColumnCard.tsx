@@ -1,5 +1,4 @@
 import {Draggable, Droppable} from "react-beautiful-dnd";
-import {Todo, TypedColumn} from "@/typings";
 import {PlusCircleIcon} from "@heroicons/react/24/solid";
 import TodoCard from "@/components/TodoCard";
 import {useBoardStore} from "@/store/BoardStore";

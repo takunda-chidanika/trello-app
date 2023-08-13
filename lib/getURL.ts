@@ -1,4 +1,3 @@
-import {Image} from "@/typings";
 import {storage} from "@/appwrite";
 
 const getURL = async (image: Image) => {

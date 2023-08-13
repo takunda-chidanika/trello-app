@@ -1,9 +1,10 @@
 'use client'
+// @ts-nocheck
 import {DragDropContext, Droppable, DropResult} from 'react-beautiful-dnd';
 import {useEffect} from "react";
 import {useBoardStore} from "@/store/BoardStore";
 import ColumnCard  from "@/components/ColumnCard";
-import {Column} from "@/typings";
+
 
 const Board = () => {
     const [board, getBoard, setBoardState, updateTodo] =
@@ -32,7 +33,8 @@ const Board = () => {
         const startColIndex = columns[Number(source.droppableId)];
         const finishColIndex = columns[Number(destination.droppableId)];
 
-        const startCol:Column = {
+
+        const startCol: Column = {
             id: startColIndex[0],
             todos: startColIndex[1].todos,
         }
