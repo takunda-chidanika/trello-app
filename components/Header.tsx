@@ -5,7 +5,6 @@ import Avatar from "react-avatar";
 import {useBoardStore} from "@/store/BoardStore";
 import {useEffect, useState} from "react";
 
-
 const Header = () => {
     const [board, searchInput, setSearchInput] = useBoardStore(state => [
         state.board,

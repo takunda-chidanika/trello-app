@@ -8,7 +8,6 @@ export default function Home() {
             <Header/>
             {/* Board */}
             <Board/>
-            <h1>Hello ChipThink Co</h1>
         </main>
     )
 }
